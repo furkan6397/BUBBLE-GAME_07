@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #5bd25b;
+}
+
+#penal {
+    overflow: hidden;
+    height: 100%;
+    width: 70%;
+    background-color: white;
+}
+
+#penaltop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
+    background-color: #114f11
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#penalbot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 834px;
+}
+
+#buble5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.buble5:hover {
+    cursor: pointer;
+    background-color: lightyellow;
+}
+
+h4 {
+    color: white;
+}
